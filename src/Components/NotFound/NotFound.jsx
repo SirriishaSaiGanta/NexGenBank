@@ -17,7 +17,7 @@ function NotFound() {
     <div className={styles.errorContainer}>
       <h3 className={styles.errorMsg}>Sorry! Page Not Found</h3>
       <img
-        src="../src/assets/sorry.jpg"
+        src="../Nexxgen/src/assets/sorry.png"
         alt="page not found"
         className={styles.errorImage}
       />

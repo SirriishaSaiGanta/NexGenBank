@@ -45,6 +45,7 @@ function CommonForm({formData, setFormData, formControls=[], buttonText, onHandl
                     <CommonInput 
                     label={getCurrentFormElement.label}
                     id={getCurrentFormElement.id}
+                    key={getCurrentFormElement.id}
                     name={getCurrentFormElement.name}
                     placeholder={getCurrentFormElement.placeholder}
                     type = {getCurrentFormElement.type}
